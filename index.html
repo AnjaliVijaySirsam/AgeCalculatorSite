@@ -1,0 +1,45 @@
+<html>
+<head>
+    <script src="indexJavascript.js" defer></script>
+    <link rel="stylesheet" href="indexCss.css">
+    <link rel="icon" href="https://img.icons8.com/doodle/48/000000/calculator--v1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+   
+    <body>
+     <div class="wrapper">
+  <div class="modal">
+        <header><h1>Age Calculator</h1></header>
+
+    <div class="dob-div">
+        <div class="dob">
+        <label>Date Of Birth</label>
+        <input id="dob-input" type="date">
+        </div>
+        
+        <button onclick="ageCalculation()" id="cal-button"  type="button"><b>Calculate Age</b></button>
+        
+    </div>
+    <b>
+    <p id="msg"></p></b>
+    
+    <div class="age">
+        <div id="year">Year
+            <b><p id="dispYear"></p></b>
+        </div>
+        <div id="month">Month
+            <b><p id="dispMonth"></p></b></div>
+        <div id="days">Days
+            <b><p id="dispDays"></p></b></div>
+    </div>
+    
+    
+    
+    <input type="reset" onClick="resetfunct()" id="reset" type="reset" value="Reset"/>
+    </div>
+  <div id="confetti-wrapper">
+  </div>
+</div>
+        </body>
+   
+</html>
