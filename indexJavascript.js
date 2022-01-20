@@ -58,6 +58,12 @@ function ageCalculation(birth,currentDate) {
                 document.getElementById("dispMonth").innerText = agemonth;
                 document.getElementById("dispDays").innerText = agedays;
             }
+    else if( document.getElementById("dob-input").valueAsDate == null;)
+            {
+                document.getElementById("dispYear").innerText = null;
+                document.getElementById("dispMonth").innerText = null;
+                document.getElementById("dispDays").innerText = null;
+            }
     else{
      document.getElementById("dispYear").innerText = ageyear ;
      document.getElementById("dispMonth").innerText = agemonth;
