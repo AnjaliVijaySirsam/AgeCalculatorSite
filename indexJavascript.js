@@ -58,8 +58,15 @@ function ageCalculation(birth,currentDate) {
                 document.getElementById("dispMonth").innerText = agemonth;
                 document.getElementById("dispDays").innerText = agedays;
             }
+  else if(mm == birthmonth &&  dd < birthdate && yy == birthyear)
+            {
+            
+                document.getElementById("msg").innerHTML = "Invalid Date";
+                document.getElementById("msg").style.display = "block";
+            }
     else if( document.getElementById("dob-input").valueAsDate == null;)
             {
+                 alert("Please Select Date");
                 document.getElementById("dispYear").innerText = null;
                 document.getElementById("dispMonth").innerText = null;
                 document.getElementById("dispDays").innerText = null;
