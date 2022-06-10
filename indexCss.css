@@ -137,14 +137,14 @@ body {
   line-height: 5rem;
   transform: scale(0.5);
   animation: scaleCup 2s infinite alternate;
-  // padding: 10px;
+  /* // padding: 10px;
   // width: 100px;
-  // height: 100px;
+  // height: 100px; */
 }
-// .round {
+/* // .round {
 //   border-radius: 100px;
 //   border: 1px solid #000;
-// }
+// } */
 
 @keyframes scaleCup {
   0% {

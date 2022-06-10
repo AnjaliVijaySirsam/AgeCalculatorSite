@@ -64,27 +64,29 @@ function ageCalculation(birth,currentDate) {
                 document.getElementById("msg").innerHTML = "Invalid Date";
                 document.getElementById("msg").style.display = "block";
             }
-    else if( document.getElementById("dob-input").valueAsDate == null;)
+    else if( document.getElementById("dob-input").valueAsDate == null)
             {
                  alert("Please Select Date");
                 document.getElementById("dispYear").innerText = null;
                 document.getElementById("dispMonth").innerText = null;
                 document.getElementById("dispDays").innerText = null;
             }
-    else{
-     document.getElementById("dispYear").innerText = ageyear ;
-     document.getElementById("dispMonth").innerText = agemonth;
-     document.getElementById("dispDays").innerText = agedays;
-
-    }
+    else 
+            {
+            document.getElementById("dispYear").innerText = ageyear ;
+            document.getElementById("dispMonth").innerText = agemonth;
+            document.getElementById("dispDays").innerText = agedays;
+             }
+    
 }
+
   function resetfunct(){
-      document.getElementById("confetti-wrapper").style.display = "none";
-      document.getElementById("dob-input").valueAsDate = null;document.getElementById("msg").style.display = "none";
-            document.getElementById("dispYear").innerText = null;
-          document.getElementById("dispMonth").innerText = null;
-                document.getElementById("dispDays").innerText = null;
- }
+                        document.getElementById("confetti-wrapper").style.display = "none";
+                        document.getElementById("dob-input").valueAsDate = null;document.getElementById("msg").style.display = "none";
+                        document.getElementById("dispYear").innerText = null;
+                        document.getElementById("dispMonth").innerText = null;
+                        document.getElementById("dispDays").innerText = null;
+                        }
 
 
 
